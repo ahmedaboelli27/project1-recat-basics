@@ -1,0 +1,114 @@
+// Alert 
+section {
+    width: 50%;
+    border: 3px dotted ;
+    border-radius: 20px;
+    margin-left: 25%;
+    height: 30vh;
+    line-height: 2;
+    padding: 20px;
+    margin-top: 40px;
+    transition: 0.3s;
+    h2 {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    p {
+        margin-top: 20px;
+    }
+}
+section div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: min-content;
+
+}
+.x {
+    height: 1%;
+    width: 5%;
+    text-align: center;
+    font-weight: 900;
+    font-size: large;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+// Error
+.error {
+    border-color: rgb(190, 96, 96);
+    color: rgb(255, 182, 182) !important;
+    background-color: rgb(103, 1, 1);
+    &:hover {
+        box-shadow: 0px 3px 16px red;
+        border-color: red;
+    }
+    
+    .x:hover {
+        box-shadow: 0px 3px 13px 2px red;
+        border: 0px solid red;
+    }
+
+}
+// upgrade
+.upgrade {
+    border-color: gray;
+    color: white;
+    background-color: rgb(32, 32, 32);
+    &:hover {
+        box-shadow: 0px 3px 16px gray;
+        border-color: gray;
+    }
+    .x:hover {
+        box-shadow: 0px 3px 13px 2px gray;
+        border: 0px solid gray;
+
+    }
+}
+// note 
+.note {
+    border-color: rgb(0, 0, 111);
+    color: rgb(159, 159, 255);
+    background-color: rgb(1, 1, 68);
+    &:hover {
+        box-shadow: 0px 3px 16px blue;
+        border-color: blue;
+    }
+    .x:hover {
+        box-shadow: 0px 3px 13px 2px rgb(120, 120, 255);
+        border: 0px solid rgb(120, 120, 255);
+    }
+}
+// order 
+.order {
+    border-color: rgb(0, 68, 0);
+    color: rgb(149, 255, 149);
+    background-color: rgb(0, 33, 0);
+    &:hover {
+        box-shadow: 0px 3px 16px green;
+        border-color: green;
+    }
+    .x:hover {
+        box-shadow: 0px 3px 13px 2px rgb(107, 247, 105);
+        border: 0px solid rgb(107, 247, 105);
+
+    }
+}
+//tips 
+.tips {
+    border-color: rgb(71, 71, 11);
+    color: rgb(255, 255, 175);
+    background-color: rgb(31, 31, 0);
+    &:hover {
+        box-shadow: 0px 3px 16px yellow;
+        border-color: yellow;
+    }
+    .x:hover {
+        box-shadow: 0px 3px 13px 2px rgb(249, 238, 91);
+        border: 0px solid rgb(249, 238, 91);
+    }
+
+}
+
+
+
